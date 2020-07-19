@@ -6,3 +6,10 @@ h1{
 p{
     color: brown;
 }
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    
+}
