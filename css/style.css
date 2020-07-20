@@ -47,103 +47,47 @@ table {
 	border-spacing: 0;
 }
 
-.header{
-    background-color: teal;
-    height: 100px;
-    margin-bottom: 10px;
-}
-
 .wrap{
     width: 900px;
     margin: 0 auto;
 }
 
+.header{
+    border: 1px solid black;
+    height: 150px;
+}
+
 .content{
-    /* height: 600px; */
-    float: left;
-    width: 900px;
-    margin-bottom: 10px;
+    border: 3px solid brown;
+    height: 400px;
+    padding: 10px;
 }
 
 .footer{
-    background-color: tomato;
+    background-color: crimson;
     height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
 
-.box1{
-    background-color: turquoise;
-    width: 100px;
-    height: 500px;
-    float: left;
-    margin-right: 10px;
+img{
+    margin: 60px auto auto 30px;
 }
-
-.box2{
-    background-color: yellow;
-    width: 190px;
-    height: 500px;
-    float: left;
-    margin-right: 10px;
-}
-
-.box3{
-    background-color: skyblue;
-    width: 590px;
-    height: 500px;
-    float: left;
-}
-
-.left{
-    background-color: steelblue;
-    width: 300px;
-    height: 300px;
-    float: left;
-   
-    margin-right: 10px;
-}
-
-.right{
-    background-color: rgb(47, 155, 119);
-    width: 590px;
-    height: 100%;
-    float: left;
-}
-
-.clearfix{
-    clear: both;
-}
-
-.menu{
-    margin-bottom: 10px;
-    height: 300px;
-
-}
-
 p{
-    padding: 20px;
-    color: whitesmoke;
+    padding-bottom: 15px;
 }
 
-.topmenu li{
-    float: left;
-}
-
-.topmenu{
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-.topmenu li a{
-    width: 180px;
-    height: 50px;
+.content a{
     display: block;
-    background-color: rgb(26, 28, 170);
+    height: 30px;
+    width: 100px;
+    background-color: darkblue;
+    color: white;
     text-decoration: none;
     text-align: center;
-    line-height: 50px;
-    color: rgb(255, 255, 255);
+    line-height: 30px;
+    box-sizing: border-box;
 }
-
-.topmenu li a:hover{
-    background-color: darkorange;
+a:hover{
+    background-color: violet;
 }
